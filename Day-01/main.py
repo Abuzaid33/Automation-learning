@@ -7,4 +7,3 @@ print("Today's Goal:\n Learn Automation Thinking")
 print("Status: Ready ✅")
 
 
-# 
