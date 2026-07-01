@@ -1,26 +1,69 @@
+"""
+Day 04 - File Organization Automation
+
+Purpose:
+Automatically organize files into folders based on their extensions.
+"""
 
 import os
 import shutil
 
+# -------------------------------
+# Create Required Folders
+# -------------------------------
 
 folders = ["JPG", "PDF", "TXT"]
-files = ["report1.pdf", "report2.pdf", "image1.jpg", "image2.jpg", "notes.txt"]
 
 for folder in folders:
-    os.makedirs(f"Day-04/incoming/{folder}", exist_ok=True)
+    os.makedirs(f"incoming/{folder}", exist_ok=True)
+
+# -------------------------------
+# Create Sample Files
+# -------------------------------
+
+files = [
+    "report1.pdf",
+    "report2.pdf",
+    "image1.jpg",
+    "image2.jpg",
+    "notes.txt"
+]
 
 for file in files:
-    file_path = f"Day-04/incoming/{file}"
+
+    file_path = f"incoming/{file}"
+
     if not os.path.exists(file_path):
         with open(file_path, "w") as f:
-            f.write("")
-    else:
-        print(f"{file} already exists in the incoming folder.")       
-        
-for file,folder in zip(files,folders):
+            f.write("Sample File")
+
+# -------------------------------
+# Organize Files
+# -------------------------------
+
+for file in files:
+
+    source = f"incoming/{file}"
+
+    if not os.path.exists(source):
+        continue
+
     if file.endswith(".pdf"):
-        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/PDF/{file}")
+
+        destination = f"incoming/PDF/{file}"
+
     elif file.endswith(".jpg"):
-        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/JPG/{file}")
+
+        destination = f"incoming/JPG/{file}"
+
     elif file.endswith(".txt"):
-        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/TXT/{file}")
+
+        destination = f"incoming/TXT/{file}"
+
+    else:
+
+        continue
+
+    shutil.move(source, destination)
+
+print("\nAll files organized successfully!")
