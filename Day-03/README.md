@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📅 Day 03 – File Handling & Persistence
 
 ## 🎯 Objective
@@ -85,3 +86,6 @@ git add .
 git commit -m "Day 03: Learn file handling and persistence"
 git push
 ```
+=======
+
+>>>>>>> 9360423a593ec26724bf606675a7a8381dffdea2
