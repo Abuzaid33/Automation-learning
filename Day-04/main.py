@@ -1,52 +1,26 @@
+
 import os
-
-"""
-Day 03 - File Handling
-
-Purpose:
-Learn how to create and write files using Python.
-"""
-# creating a file 
-# with open("note.txt", "w") as file:
-#     file.write("This is my first time creating a file using Python.\n")
-#     file.write("File creation\n")
-#     file.write("Day-03\n")
-# print("File created successfully!")
+import shutil
 
 
-# adding new data to file 
-# with open("note.txt", "a") as file:
-#     file.write("\nThis is my first time appending data to a file.\n")
+folders = ["JPG", "PDF", "TXT"]
+files = ["report1.pdf", "report2.pdf", "image1.jpg", "image2.jpg", "notes.txt"]
 
+for folder in folders:
+    os.makedirs(f"Day-04/incoming/{folder}", exist_ok=True)
 
-# reading th econtent of the file
-# with open("note.txt", "r") as file:
-#     content = file.read()
-#     print(content)
-
-
-# 💻 Mini Project – Student Registration Logger
-
-if not os.path.exists("students.txt"):
-    with open("students.txt","w") as file:
-        file.write("Student 1: Abuzaid\n")
-        file.write("Student 2: khan\n")
-        file.write("Student 3: khattak\n")
-else:
-    print("File already exists!")
-
-
-if os.path.exists("students.txt"):
-    with open("students.txt","r") as file:
-        content =file.read()
-        print(content)
+for file in files:
+    file_path = f"Day-04/incoming/{file}"
+    if not os.path.exists(file_path):
+        with open(file_path, "w") as f:
+            f.write("")
+    else:
+        print(f"{file} already exists in the incoming folder.")       
         
-if os.path.exists("students.txt"):
-    with open("students.txt","a") as file:
-        file.write("Student 4: Ali\n")
-
-if os.path.exists("students.txt"):
-    with open("students.txt","r") as file:
-        content =file.read()
-        print(content)
-        
+for file,folder in zip(files,folders):
+    if file.endswith(".pdf"):
+        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/PDF/{file}")
+    elif file.endswith(".jpg"):
+        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/JPG/{file}")
+    elif file.endswith(".txt"):
+        shutil.move(f"Day-04/incoming/{file}",f"Day-04/incoming/TXT/{file}")
