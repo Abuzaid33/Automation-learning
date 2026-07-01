@@ -17,9 +17,7 @@ import os
 # print("\nfiles and folders present in the directory:")
 
 # for file in os.listdir():
-#     if os.path.isfile(file):
-#         print(file + " is a file")
-#     else:
+# 0#     else:
 #         print(f"{file} is a folder")
 # for file in os.listdir():
 #     print(os.path.relpath(file))
