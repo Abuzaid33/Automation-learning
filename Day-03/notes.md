@@ -12,3 +12,54 @@ What's the difference between reading and writing a file?
 reading files is used to read and extract the content of the files while writing create and write new data in file if teh data is already exists it overwrite the data 
 Can software create a file automatically?
 yes a software is capable of creating a file automatically.
+
+
+🧠 Think Like an Engineer
+
+Imagine your company processes 50,000 invoices every day.
+
+Would you store all invoice data in variables?
+
+Or would you write them to files?
+
+Explain why in notes.md.
+
+>workflow
+
+>Employee invoice 
+
+>process  invoice 
+
+>create invoice files for every employeename
+
+>create  folder  on every employeename
+
+>move invoce to each emplyee folder 
+
+>create a log for every creation and operation
+
+>close the file
+
+
+
+
+📚 New Technical Terms
+
+Add these to your notes:
+
+File Handling
+teh process of handling file operations inculding creating reading and adding data to files
+Persistence
+the ability of the file to hold data after the programs ends
+Read Mode
+used to read content of the file
+Write Mode
+used to create and write the contnt of file also overwrite the content  if file already exists
+Append Mode
+add new data to the end of the file
+Log File
+storing the operation on file what and when it is happened
+
+File Pointer (We'll explore this more later.)
+
+Write each definition in your own words.
