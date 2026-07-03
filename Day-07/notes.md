@@ -39,3 +39,36 @@ FileNotFoundError
 when the requested file is not present
 Defensive Programming
 in which you handle the error before it occurs
+
+🧠 Think Like an Engineer
+
+Imagine your automation processes 50,000 invoices.
+
+One invoice is corrupted.
+
+Without exception handling:
+
+Invoice 1 ✅
+
+Invoice 2 ✅
+
+Invoice 3 ❌
+
+Program crashes
+
+With exception handling:
+
+Invoice 1 ✅
+
+Invoice 2 ✅
+
+Invoice 3 ❌ Logged
+
+Invoice 4 ✅
+
+Invoice 5 ✅
+
+Which system would a company trust?
+
+
+second system is good beacause a software should never stop
