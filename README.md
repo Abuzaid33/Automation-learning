@@ -192,16 +192,18 @@ Throughout this bootcamp, I will work with:
 
 ---
 
-# 📅 Daily Progress
+| Day    | Skill                                       |
+| ------ | ------------------------------------------- |
+| Day 00 | Git, GitHub, project organization           |
+| Day 01 | Automation mindset                          |
+| Day 02 | `os` module and file system                 |
+| Day 03 | File handling (`open`, read, write, append) |
+| Day 04 | `shutil`, file organization                 |
+| Day 05 | Dictionaries for scalable automation        |
+| Day 06 | Functions and modular programming           |
+| Day 07 | Exception handling and reliable software    |
+| Day 08 | Object-Oriented Programming (OOP)           |
 
-| Day | Topic | Status |
-|------|-------------------------------|--------|
-| Day 00 | Environment Setup | ✅ |
-| Day 01 | Introduction to Automation | ✅ |
-| Day 02 | Working with Files | ✅ |
-| Day 03 | Directories & File Handling | ✅ |
-| Day 04 | File Moving Automation | ✅ |
-| Day 05 | Automation Design Thinking | ✅ |
 
 ---
 
