@@ -6,8 +6,8 @@ os.makedirs("Day-11/data",exist_ok=True)
 
 # Reading operation
 
-if not os.path.exists("Day-11/data/employees.json"):
-    with open("Day-11/data/employees.json","r") as file:
+if os.path.exists("Day-11/data/employee.json"):
+    with open("Day-11/data/employee.json","r") as file:
         employees = json.load(file) 
 else:
     employees = []
@@ -21,7 +21,7 @@ new_employee = {
 employees.append(new_employee)
 
 # saving operation
-with open("Day-11/data/employees.json","w") as file:
+with open("Day-11/data/employee.json","w") as file:
     json.dump(employees,file,indent=4)
     
 for employee in employees:
@@ -29,5 +29,8 @@ for employee in employees:
         print(employee)
         
 for employee in employees:
-    if employee["id"] == 101:
+    if employee["id"] == 75:
         employee["department"] = "AI"
+    
+with open("Day-11/data/employee.json","w") as file:
+    json.dump(employees,file,indent=4)
