@@ -1,18 +1,7 @@
-{
-    "Name": "Abuzaid",
-    "Department": "IT",
-    "Employee ID": 101,
-    "Email": "abuzaid333@gmail.com"
-}
-{
-    "Name": "Khan",
-    "Department": "Networking",
-    "Employee ID": 102,
-    "Email": "khan333@gmail.com"
-}
-{
-    "Name": "Khattak",
-    "Department": "CSE",
-    "Employee ID": 103,
-    "Email": "khattak333@gmail.com"
-}
+[
+    {
+        "name": " Abuzaid ",
+        " department": "IT ",
+        " rollno": 75
+    }
+]
