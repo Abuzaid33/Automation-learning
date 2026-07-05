@@ -1,12 +1,12 @@
 [
     {
-        "name": "Abuzaid",
-        "department": "AI",
-        "id": 75
+        "employee_name": "Abuzaid",
+        "department": "Artificial Intelligence",
+        "employee_id": 75
     },
     {
-        "name": "Abuzaid",
-        "department": "AI",
-        "id": 75
+        "employee_name": "Ahmed",
+        "department": "Finance",
+        "employee_id": 77
     }
 ]
