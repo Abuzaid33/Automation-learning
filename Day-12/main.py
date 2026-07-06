@@ -1,10 +1,31 @@
-# import logging
+import logging
+import os
 
-# logging.basicConfig(
-#     filename="Day-12/automation.log",
-#     level=logging.INFO,
-#     format="%(asctime)s - %(levelname)s - %(message)s"
-# )
+from file_organizer import Employee_folders, Employee_reports, Move_files
+
+# Create required folders
+os.makedirs("Day-12/data", exist_ok=True)
+os.makedirs("Day-12/data/incoming", exist_ok=True)
+
+# Configure logging
+logging.basicConfig(
+    filename="Day-12/automation.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+logging.info("Automation Started")
+
+Employee_reports()
+logging.info("Employee reports created successfully.")
+
+Employee_folders()
+logging.info("Employee folders created successfully.")
+
+Move_files()
+logging.info("Files moved successfully.")
+
+logging.info("Automation Finished")
 # logging.debug("Opening JSON")
 
 # logging.info("Employee created")
@@ -29,14 +50,14 @@
 
 # logging.info("Program Finished")
 
-import logging
+# import logging
 
-try:
+# try:
 
-    number = int(input("Number: "))
+#     number = int(input("Number: "))
 
-except ValueError:
+# except ValueError:
 
-    logging.error("Invalid Number Entered")
+#     logging.error("Invalid Number Entered")
 
-    print("Wrong Input")
+#     print("Wrong Input")

@@ -1,4 +1,21 @@
-2026-07-06 16:38:45,266 - INFO - Employee created
-2026-07-06 16:38:45,266 - WARNING - Email Missing
-2026-07-06 16:38:45,267 - ERROR - Employee Not Found
-2026-07-06 16:38:45,267 - CRITICAL - Database Offline
+2026-07-06 17:58:05,188 - INFO - Employee reports created successfully
+2026-07-06 17:58:05,189 - INFO - Employee folders created successfully
+2026-07-06 17:58:05,189 - INFO - Files moved successfully
+2026-07-06 17:58:49,524 - INFO - Employee reports created successfully
+2026-07-06 17:58:49,525 - INFO - Employee folders created successfully
+2026-07-06 17:58:49,525 - INFO - Files moved successfully
+2026-07-06 18:05:21,119 - INFO - Employee reports created successfully
+2026-07-06 18:05:21,120 - INFO - Employee folders created successfully
+2026-07-06 18:05:21,120 - INFO - Files moved successfully
+2026-07-06 18:13:25,621 - INFO - Automation Started
+2026-07-06 18:13:25,622 - INFO - reports.pdf created
+2026-07-06 18:13:25,623 - INFO - image.jpg created
+2026-07-06 18:13:25,624 - INFO - notes.txt created
+2026-07-06 18:13:25,624 - INFO - Employee reports created successfully.
+2026-07-06 18:13:25,628 - INFO - Folders created successfully.
+2026-07-06 18:13:25,628 - INFO - Employee folders created successfully.
+2026-07-06 18:13:25,630 - INFO - image.jpg moved to JPG
+2026-07-06 18:13:25,631 - INFO - notes.txt moved to TXT
+2026-07-06 18:13:25,632 - INFO - reports.pdf moved to PDF
+2026-07-06 18:13:25,632 - INFO - Files moved successfully.
+2026-07-06 18:13:25,632 - INFO - Automation Finished
