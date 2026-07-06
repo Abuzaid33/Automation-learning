@@ -12,3 +12,24 @@ What happens when automation fails at 3 AM?
 when an nautomation fails at 3 am the log is created
 Why is keeping log files important?
 in this way we should know when what happend
+
+
+Logging
+Logging is a python module which is used to create logs of operations professioanly 
+Log File
+Create the log for a file 
+Log Level
+it tells us which level a file is like an error hapend or operation successfull 
+INFO
+tells us about curnt logs information
+WARNING
+something unusual happend
+ERROR
+An error occurd while file operation
+CRITICAL
+the operation cannot continue
+Timestamp
+the time when the log occurs
+Debugging
+developers information 
+Audit Trail

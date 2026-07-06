@@ -1,0 +1,4 @@
+2026-07-06 16:38:45,266 - INFO - Employee created
+2026-07-06 16:38:45,266 - WARNING - Email Missing
+2026-07-06 16:38:45,267 - ERROR - Employee Not Found
+2026-07-06 16:38:45,267 - CRITICAL - Database Offline
