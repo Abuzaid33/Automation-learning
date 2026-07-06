@@ -33,3 +33,25 @@ the time when the log occurs
 Debugging
 developers information 
 Audit Trail
+
+
+
+🧠 Think Like an Engineer
+
+Imagine Amazon processes
+
+2 million orders
+
+every day.
+
+Would engineers check
+
+print()
+
+messages?
+
+Or would every action be stored inside log files?
+
+Explain why in notes.md.
+
+Definitely engineer will check log file cause no one is looking at the terminal and also it snot a proffesional practice to print logs cause they are temporary
