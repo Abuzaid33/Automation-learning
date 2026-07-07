@@ -2,10 +2,52 @@ import logging
 import os
 
 from file_organizer import Employee_folders, Employee_reports, Move_files
-
-# Create required folders
+from employee_database import EmployeeDatabase
+from logger import log
 os.makedirs("Day-12/data", exist_ok=True)
 os.makedirs("Day-12/data/incoming", exist_ok=True)
+# Create Employees
+
+employee1 = EmployeeDatabase("Abuzaid", 75, "IT")
+employee2 = EmployeeDatabase("Ali", 76, "HR")
+employee3 = EmployeeDatabase("Ahmed", 77, "Finance")
+
+employee1.create_employee()
+employee2.create_employee()
+employee3.create_employee()
+
+print("=" * 50)
+print("Employee Database")
+print("=" * 50)
+
+employee1.read_employees()
+
+print("\n" + "=" * 50)
+print("Search Employee")
+print("=" * 50)
+
+employee1.search_employee()
+
+print("\n" + "=" * 50)
+print("Update Employee")
+print("=" * 50)
+
+employee1.employee_department = "Artificial Intelligence"
+employee1.update_employee()
+
+employee1.read_employees()
+
+print("\n" + "=" * 50)
+print("Delete Employee")
+print("=" * 50)
+
+employee2.delete_employee()
+
+employee1.read_employees()
+
+log("Program Finished Successfully")
+# Create required folders
+
 
 # Configure logging
 logging.basicConfig(
