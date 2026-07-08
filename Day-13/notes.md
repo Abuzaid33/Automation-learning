@@ -17,4 +17,4 @@ csv is in comma seprated format while json is in key value pair also json is use
 Can CSV store colors or formulas?
 yes it can store everything but in term of values 
 Give three real-world examples where CSV is used.
-liek in students report cards in employee cards everywhere
+liek in students report cards in employee cards generation and salries genration
