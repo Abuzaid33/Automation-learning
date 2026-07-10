@@ -1,0 +1,7 @@
+# INFO
+
+# WARNING
+
+# ERROR
+
+# CRITICAL
