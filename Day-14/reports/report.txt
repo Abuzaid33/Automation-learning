@@ -1,0 +1,14 @@
+
+Employee Report
+
+============================
+
+Total Employees : 1
+
+Departments :
+
+{'it'}
+
+Highest ID : 23
+
+Lowest ID : 23
