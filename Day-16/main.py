@@ -1,3 +1,26 @@
+import os
+
+from backup import (
+    creating_files,
+    compressing_files,
+    displaying_zip_files
+)
+
+
+os.makedirs("Day-16/reports", exist_ok=True)
+os.makedirs("Day-16/backups", exist_ok=True)
+os.makedirs("Day-16/Extracted", exist_ok=True)
+
+creating_files()
+
+compressing_files()
+
+displaying_zip_files()
+
+
+
+
+
 
 
 # import zipfile
@@ -14,9 +37,9 @@
 # print("Backup completed")
 
 # import os
-import zipfile
+# import zipfile
 
 
-with zipfile.ZipFile("Day-16/reports/reports.zip","r") as backup:
+# with zipfile.ZipFile("Day-16/reports/reports.zip","r") as backup:
 
-    backup.extractall("Day-16/Extracted")
+#     backup.extractall("Day-16/Extracted")
