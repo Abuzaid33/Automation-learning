@@ -60,3 +60,4 @@ employee_backup_14_07_2026.zip
 
 
 the option b because if they store every single file its become so defficult to manage and maintain the files as well as the backup also it takes lots of storage so comapanies compress files
+

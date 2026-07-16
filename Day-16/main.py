@@ -1,5 +1,22 @@
 import os
 
+
+
+
+
+
+from backup_manager import CompanyBackup
+
+
+company = CompanyBackup()
+
+company.create_report()
+
+company.create_backup()
+
+company.show_backup()
+
+company.extract_backup()
 from backup import (
     creating_files,
     compressing_files,
