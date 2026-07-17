@@ -203,7 +203,28 @@ Throughout this bootcamp, I will work with:
 | Day 06 | Functions and modular programming           |
 | Day 07 | Exception handling and reliable software    |
 | Day 08 | Object-Oriented Programming (OOP)           |
-
+| Day 09 |	Modules and Project Organization
+| Day 10 |	JSON File Handling
+| Day 11 |	CRUD Operations with JSON
+| Day 12 |	Logging and File Organizer
+| Day 13 |	CSV Automation
+| Day 14 |	Employee Automation System
+| Day 15 |	Date & Time Automation
+| Day 16 |	ZIP Backup Automation
+| Day 17 |	Email Automation
+| Day 18 |	Reading Emails
+| Day 19 |	Task Scheduling
+| Day 20 |	HTTP Requests
+| Day 21 |	REST APIs
+| Day 22 |	Excel Automation
+| Day 23 |	PDF Automation
+| Day 24 |	Regular Expressions
+| Day 25 |	Web Scraping
+| Day 26 |	Selenium
+| Day 27 |	Environment Variables
+| Day 28 |	Payroll Automation Project
+| Day 29 |	Invoice Automation Proj |ect
+| Day 30 |	Office Automation Suite
 
 ---
 
