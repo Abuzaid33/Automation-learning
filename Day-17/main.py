@@ -16,4 +16,3 @@ employee2.search_employee()
 
 employee3.update_department("AI")
 
-employee2.delete_employee()
