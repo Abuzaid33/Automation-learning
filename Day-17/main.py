@@ -28,17 +28,4 @@ print("=" * 40)
 # Update Department
 employee3.update_department("Artificial Intelligence")
 
-print("=" * 40)
-
-# Read Again
-employee1.read_employees()
-
-print("=" * 40)
-
-# Delete Employee
 employee2.delete_employee()
-
-print("=" * 40)
-
-# Final Database
-employee1.read_employees()
