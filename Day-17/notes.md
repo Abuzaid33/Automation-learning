@@ -15,7 +15,7 @@ Option B obviously because its convinient and more reliable also its profesional
 📚 New Technical Terms
 
 Write these definitions in your own words.
-
+zip
 openpyxl
 its python module used to deal with excel files
 Workbook
